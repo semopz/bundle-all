@@ -10,19 +10,10 @@
 npm install --save bundle-all
 ```
 
-## Usage
+## Recreate issue
 
 ```tsx
-import React, { Component } from 'react'
-
-import MyComponent from 'bundle-all'
-import 'bundle-all/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+npm run-script build
 ```
 
 ## License
